@@ -7,10 +7,15 @@
       <img src="img/menu.png">
     </a>
     <div class="menu-items flex-row-center flex-item">
-      <a href="index.html" class="menu-index">Overview</a>
-      <a href="widgets.html" class="menu-widget">Widgets</a>
-      <a href="embedding.html" class="menu-embedding">Embedding</a>
-      <a href="https://github.com/yenchiah/project-website-template">GitHub</a>
+      {% for item in site.data.nav.docs %}
+      <a href="{{ item.url }}" class="menu-index">{{ item.title }}</a>
+      {% endfor %}
     </div>
   </div>
 </div>
+
+
+
+
+
+<a href="index.html" class="menu-index">Overview</a>

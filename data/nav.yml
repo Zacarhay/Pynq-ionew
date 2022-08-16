@@ -1,0 +1,29 @@
+docs_list_title: nav
+docs:
+
+- title: About Pynq
+  url: about_pynq.html
+
+- title: Boards
+  url: boards.html
+
+- title: Contact
+  url: contact.html
+
+- title: Design
+  url: design.html
+
+- title: Documentation
+  url: documentation.html
+
+- title: Getting Started
+  url: getting-started.html
+
+- title: Pynq Community
+  url: pynq-community.html
+
+- title: Source Code
+  url: source-code.html
+
+- title: Support
+  url: support.html
