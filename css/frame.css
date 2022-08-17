@@ -798,7 +798,6 @@ ol.nested>li:before {
 }
 
 .custom-table {
-  display: block;
   overflow-x: auto;
   border: 1px solid #666666;
   border-collapse: collapse;
