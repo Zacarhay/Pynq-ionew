@@ -1,5 +1,3 @@
-*For the Kria KV260, follow the guide for the Ubuntu image and then follow the Kria PYNQ setup instructions to install PYNQ.
-
 # Build a PYNQ SD card image
 
 See the [PYNQ image build guide](https://pynq.readthedocs.io/en/latest/pynq_sd_card.html) or details on building the PYNQ image. 
