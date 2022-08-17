@@ -1,4 +1,4 @@
-Jupyter notebook runs in a web browser. Only a (compatible web browser)['https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#browser-compatibility'] is needed to start programming PYNQ with Python. 
+Jupyter notebook runs in a web browser. Only a [compatible web browser]('https://jupyter-notebook.readthedocs.io/en/latest/notebook.html#browser-compatibility') is needed to start programming PYNQ with Python. 
 
 
 For higher performance, you can also use C/C++ with Python and PYNQ. The Xilinx SDK software development environment is available for free. You can also use third party software development tools. 
