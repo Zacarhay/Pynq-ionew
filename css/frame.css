@@ -333,6 +333,7 @@ hr {
   border-radius: 2px;
   width: 100%;
   margin: 15px 0;
+  float: center;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
