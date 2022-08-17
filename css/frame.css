@@ -157,7 +157,7 @@ hr {
 }
 
 .menu-items a:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 5px;
 }
 
 .menu-items a:hover {
@@ -286,10 +286,6 @@ hr {
 
 .flex-item-stretch-5 {
   flex: 1 auto;
-}
-
-.flex-item {
-  margin: auto;
 }
 
 .left-align {
