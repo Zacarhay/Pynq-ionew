@@ -65,9 +65,31 @@
               <zero-md src="./Index.md/Who.md"></zero-md>
             </p>
             <h2>Key Technologies</h2>
+          </div>
+        </div>
+            <!--Start List of Projects-->
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            <h2>Key Technologies</h2>
+            <hr>
+          </div>
+        </div>
+        {% for item in site.data.key %}
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <img class="{{ item.img }}" src="{{ item.src }}">
+          </div>
+          <div class="flex-item flex-item-stretch-4 flex-column">
             <p class="text">
-              <zero-md src="./Index.md/Key.md"></zero-md>
+              <a class="highlight-text" href="javascript:void(0)">{{ item.title }}</a><br>
+              {{item.text}}
             </p>
+          </div>
+        </div>
+        {% endfor %}
+        <!--End List of Projects-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
             <h2>What Software do I need</h2>
             <p class="text">
               <zero-md src="./Index.md/What.md"></zero-md>
@@ -636,53 +658,6 @@
         </div>
         <!--END Text with Iframe-->
         <!-------------------------------------------------------------------------------------------->
-        <!--Start List of Projects-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2>List of Projects</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <div class="flex-row">
-          <div class="flex-item flex-item-stretch flex-column">
-            <img class="image max-width-400" src="img/dummay-img.png">
-          </div>
-          <div class="flex-item flex-item-stretch-4 flex-column">
-            <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">Li Europan Lingues es Membres Del Sam Familie</a><br>
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-        <!--End List of Projects-->
         <!-------------------------------------------------------------------------------------------->
         <!--Start Gallery-->
         <div class="flex-row">

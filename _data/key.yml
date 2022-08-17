@@ -1,0 +1,16 @@
+docs_list_title: key
+docs: 
+
+
+- title: Jupyter Notebook
+  img: jupyter.png
+  src: https://jupyter.org/
+  text: Jupyter Notebook is a browser based interactive computing environment. Jupyter notebook documents can be created that include live code, interactive widgets, plots, explanatory text, equations, images and video. 
+
+- title: Python
+  img: python.png
+  src:
+  text: A PYNQ enabled board can be easily programmed in Jupyter Notebook using Python. Using Python, developers can use hardware libraries and overlays on the programmable logic. Hardware libraries, or overlays, can speed up software running on a Zynq or Alveo board, and customize the hardware platform and interfaces. 
+
+
+
