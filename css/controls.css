@@ -496,3 +496,9 @@ textarea[readonly].custom-textbox {
   margin: auto;
   border: none;
 }
+
+.dropdown-content a {
+  padding: 13px 30px;
+  text-decoration: none;
+  display: block;
+}
