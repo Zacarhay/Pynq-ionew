@@ -74,19 +74,17 @@
             <hr>
           </div>
         </div>
-        {% for item in site.data.key.docs %}
         <div class="flex-row">
           <div class="flex-item flex-item-stretch flex-column">
-            <img class="{{ item.img }}" src="{{ item.src }}">
+            <img class="image max-width-400" src="img/jupyter.png">
           </div>
           <div class="flex-item flex-item-stretch-4 flex-column">
             <p class="text">
-              <a class="highlight-text" href="javascript:void(0)">{{ item.title }}</a><br>
-              {{item.text}}
+              <a class="highlight-text" href="javascript:void(0)">Key Technologies</a><br>
+              <zero-md src="./Index.md/Key.md"></zero-md>
             </p>
           </div>
         </div>
-        {% endfor %}
         <!--End List of Projects-->
         <div class="flex-row">
           <div class="flex-item flex-column">
