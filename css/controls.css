@@ -465,10 +465,10 @@ textarea[readonly].custom-textbox {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000;
-  min-width: 160px;
+  background-color: #fff;
+  min-width: 455px;
   z-index: 1;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* Links inside the dropdown */
