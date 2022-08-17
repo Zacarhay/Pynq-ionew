@@ -488,6 +488,12 @@ textarea[readonly].custom-textbox {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #fff; color:#000;}
 
+/* make all the menu links change color when you hover*/
+.dropbtn:hover {background-color: #fff;}
+
+/* make the bgc change color when you hover over all links*/
+.dropbtn:hover a{color:#000;}
+
 .menu-index {
   color: #fff !important;
   opacity: 1 !important;

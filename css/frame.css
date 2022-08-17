@@ -144,25 +144,12 @@ hr {
 }
 
 .menu-items a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 18px;
-  flex: 1 auto;
-  transition: opacity 0.1s ease-in-out;
-  -moz-transition: opacity 0.1s ease-in-out;
-  -webkit-transition: opacity 0.1s ease-in-out;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  white-space: nowrap;
 }
 
 .menu-items a:not(:last-child) {
   margin-right: 5px;
-}
-
-.menu-items a:hover {
-  color: rgb(255, 255, 255);
-  opacity: 1;
 }
 
 .content-container {
