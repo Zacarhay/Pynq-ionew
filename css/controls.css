@@ -444,7 +444,7 @@ textarea[readonly].custom-textbox {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #000;
+  background-color: #333333;
   color: white;
   padding: 15px;
   font-size: 18px;
@@ -464,7 +464,7 @@ textarea[readonly].custom-textbox {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000;
+  background-color: #333333;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -473,14 +473,14 @@ textarea[readonly].custom-textbox {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #333333;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #000;}
+.dropdown-content a:hover {background-color: #333333;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
@@ -492,7 +492,7 @@ textarea[readonly].custom-textbox {
   color: #fff !important;
   opacity: 1 !important;
   font-weight: 400 !important;
-  background-color: #000;
+  background-color: #333333;
   padding: 13px;
   margin: auto;
   border: none;
