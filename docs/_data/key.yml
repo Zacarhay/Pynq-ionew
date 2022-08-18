@@ -1,11 +1,6 @@
-docs_list_title: key
-docs: 
-
-
+key:
   - title: Jupyter Notebook
-
   - title: Python
-  
   - title: hello world
 
 
