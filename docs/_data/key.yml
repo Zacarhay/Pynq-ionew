@@ -2,10 +2,10 @@ docs_list_title: key
 docs: 
 
 
-- title: Jupyter Notebook
+  - title: Jupyter Notebook
 
-- title: Python
-
-- title: hello world
+  - title: Python
+  
+  - title: hello world
 
 
