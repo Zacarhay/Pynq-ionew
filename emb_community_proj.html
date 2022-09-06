@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="{{ site.lang | default: en-US}}"></html>
 
 <head>
   <title>PYNQ</title>
@@ -38,11 +38,36 @@
         <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 class="no-top-margin">Text with Images and Videos</h2>
+
             {% for item in site.data.gallery.docs %}
-            <P class="fpl-gal">
-                <img src="{{ item.src }}" alt="{{ item.title }}" class="responsive">
-            </p>
+            <div class="gallery">
+              <a target="_blank" href="{{ item.img }}">
+                <img src="{{ item.img }}" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">{{ item.description }}</div>
+            </div>
             {% endfor %}
+            
+            <div class="gallery">
+              <a target="_blank" href="img/Pynq-z1.png">
+                <img src="img/Pynq-z1.png" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="img/Pynq-z1.png">
+                <img src="img/Pynq-z1.png" alt="Northern Lights" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+            
+            <div class="gallery">
+              <a target="_blank" href="img/Pynq-z1.png">
+                <img src="img/Pynq-z1.png" alt="Mountains" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
           </div>
         </div>
       </div>
